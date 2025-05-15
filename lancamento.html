@@ -11,16 +11,19 @@
 
   <body>
     <header>
-      <nav>
-        <div class="logomenu">
-          <img src="img/logo-ford-256.png" alt="Logo Ford" />
-        </div>
-
-        <div class="links">
-          <a href="index.html">Home</a>
-          <a href="lancamento.html">Lançamento</a>
-          <a href="contato.html">Contato</a>
-        </div>
+      <img src="img/logo-ford-256.png" alt="Logo Ford" />
+      <nav class="navigation-menu">
+        <ul class="navigation-list">
+          <li>
+            <a href="./index.html" class="links ">Home</a>
+          </li>
+          <li class="nav__items">
+            <a href="./lancamento.html" class="links highlighted">Lançamento</a>
+          </li>
+          <li class="nav__items">
+            <a href="./contato.html" class="links">Contato</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="conteudo-principal-lancamento">
@@ -86,9 +89,9 @@
           </table>
         </div>
       </section>
-      <div class="button-compare">
-        <button type="button">Comparar</button>
-      </div>
+      <!-- <div class="button-compare">
+      </div> -->
+      <button type="button" id="btn-enviar">Comparar</button>
     </main>
     <footer>
       <div class="redes-sociais">
